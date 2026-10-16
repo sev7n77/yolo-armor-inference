@@ -8,11 +8,11 @@
 
 ## 2. 环境依赖 (Python版本、主要依赖、CPU/GPU)
 - **Python 版本**: [3.10.20]
-- **主要依赖**: \ultralytics`, `opencv-python`
+- **主要依赖**: `ultralytics` `opencv-python`
 - **硬件要求**: 本机运行环境为 [Intel U7 + RTX 5060]，推理时使用的是 [GPU]。
 
 ## 3. 模型权重的准备方式与放置位置
-- 权重文件 `best.pt` 未提交至 Git 历史中（已通过 `.gitignore` 排除）。
+- 权重文件  `best.pt` 未提交至 Git 历史中（已通过  `.gitignore` 排除）。
 - **准备方式**: 从作业附件中下载 `best.pt`，并将其放置在项目根目录下（与 `infer.py` 同级）。
 
 ## 4. 依赖安装步骤、实际运行命令和结果保存位置
